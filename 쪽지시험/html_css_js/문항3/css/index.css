@@ -1,0 +1,18 @@
+nav {
+    width: 330px; height: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+nav .btn {
+    width: 100px;
+}
+
+section {
+    width: 330px; height: 100px;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+section div {
+    text-indent: 5px;
+}

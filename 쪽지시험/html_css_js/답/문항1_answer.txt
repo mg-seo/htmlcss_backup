@@ -1,0 +1,32 @@
+----------------------------------------HTML--------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <nav>
+        <div>아메리카노</div>
+        <div>카푸치노</div>
+        <div>밀크커피</div>
+        <div>딸기커피</div>
+        <div>블랙커피</div>
+    </nav>
+</body>
+</html>
+
+-----------------------------------------CSS--------------------------------------------
+nav {
+    width: 550px; height: 50px;
+    display: flex;
+}
+nav div {
+    margin-left: 10px; height: 100%;
+    width: 100px;
+    border: 1px solid green;
+    line-height: 50px;
+    text-align: center;
+}

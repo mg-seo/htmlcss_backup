@@ -1,0 +1,11 @@
+nav {
+    width: 550px; height: 50px;
+    display: flex;
+}
+nav div {
+    margin-left: 10px; height: 100%;
+    width: 100px;
+    border: 1px solid green;
+    line-height: 50px;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+.wrap {
+    position: fixed;
+    top: 0; left: 0;
+    width: 480px; height: 100%;
+    background-image: url(/img/phone1.PNG);
+    background-size: 100% 100%;
+}
+.wrap .box {
+    width: 85%; height: 70%;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 22%; margin-left: 7%;
+}
+.table1 {
+    width: 100%; height: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-style: hidden;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.tr1 {
+    font-size: larger;
+    font-weight: bold;
+}
+tr {
+    height: 60px;
+}
+td {
+    border-bottom: 1px solid rgb(85, 94, 94);
+}
+.time {
+    width: 30%;
+}
+.cont {
+    width: 70%;
+}

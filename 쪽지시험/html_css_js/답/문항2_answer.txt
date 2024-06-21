@@ -1,0 +1,28 @@
+----------------------------------------HTML--------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <div>
+        <img src="/img/computer1.png" alt="컴퓨터-1">
+        <img src="/img/computer2.png" alt="컴퓨터-2">
+        <img src="/img/computer3.png" alt="컴퓨터-3">
+    </div>
+</body>
+</html>
+
+-----------------------------------------CSS--------------------------------------------
+div {
+    width: 1000px; height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+div img {
+    width: 300px; height: 100%;
+    /* border: 1px solid black; */
+}

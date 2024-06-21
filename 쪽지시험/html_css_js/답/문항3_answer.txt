@@ -1,0 +1,61 @@
+----------------------------------------HTML--------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="/js/index.js"></script>
+</head>
+<body>
+    <nav>
+        <input type="button" value="파이리" class="btn1 btn">
+        <input type="button" value="꼬부기" class="btn2 btn">
+        <input type="button" value="이상해씨" class="btn3 btn">
+    </nav>
+    <section>
+        <div id="content">
+            설명이 나타나는 박스
+        </div>
+    </section>
+</body>
+</html>
+
+-----------------------------------------CSS--------------------------------------------
+nav {
+    width: 330px; height: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+nav .btn {
+    width: 100px;
+}
+
+section {
+    width: 330px; height: 100px;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+section div {
+    text-indent: 5px;
+}
+
+------------------------------------------js--------------------------------------------
+window.onload=function() {
+    let btn, cont;
+    btn1 = document.querySelector(".btn1");
+    btn2 = document.querySelector(".btn2");
+    btn3 = document.querySelector(".btn3");
+    cont = document.getElementById("content");
+    btn1.onclick=function() {
+        cont.innerHTML = "불 타입";
+    }
+    btn2.onclick=function() {
+        cont.innerHTML = "물 타입";
+    }
+    btn3.onclick=function() {
+        cont.innerHTML = "풀 타입";
+    }
+}
